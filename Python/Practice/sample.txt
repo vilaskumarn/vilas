@@ -1,0 +1,7 @@
+Welcome to Python File Handling.
+This is a sample text file.
+You can practice reading files.
+You can also practice writing new content.
+Appending data is useful too.
+Python makes file handling easy.
+Have a great day!

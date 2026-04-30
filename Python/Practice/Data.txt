@@ -1,0 +1,2 @@
+This data is written using the 'with' block using write key : 'w'
+This data is written using the 'with' block using append key : 'a'
