@@ -1,24 +1,3 @@
--- Drop tables if they already exist
-BEGIN
-    EXECUTE IMMEDIATE 'DROP TABLE flights CASCADE CONSTRAINTS';
-EXCEPTION
-    WHEN OTHERS THEN
-        IF SQLCODE != -942 THEN
-            RAISE;
-        END IF;
-END;
-/
-
-BEGIN
-    EXECUTE IMMEDIATE 'DROP TABLE airlines CASCADE CONSTRAINTS';
-EXCEPTION
-    WHEN OTHERS THEN
-        IF SQLCODE != -942 THEN
-            RAISE;
-        END IF;
-END;
-/
-
 -- Create airlines table
 CREATE TABLE airlines (
     airline_id NUMBER PRIMARY KEY,
