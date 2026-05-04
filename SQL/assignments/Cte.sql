@@ -217,3 +217,4 @@ select * from cte2
 --     )
 -- )
 -- SELECT * FROM top_earners;
+
