@@ -1,0 +1,14 @@
+# Large datasets
+*.csv
+Python/Machine Learning/pandas/application_train.csv
+
+# Model files
+*.joblib
+*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc 
