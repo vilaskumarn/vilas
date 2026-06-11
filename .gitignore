@@ -12,3 +12,9 @@ Python/Machine Learning/pandas/application_train.csv
 # Python cache
 __pycache__/
 *.pyc 
+
+*.csv
+*.joblib
+*.pkl
+data/
+datasets/
